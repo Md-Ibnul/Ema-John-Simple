@@ -1,0 +1,18 @@
+.header{
+    max-width: ;
+    height: 80px;
+    background-color: #1C2B35;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+}
+.menu a:hover{
+    color: crimson;
+    transition: all .3s;
+}
