@@ -1,0 +1,13 @@
+.cart{
+    background-color: #FFE0B3;
+    padding: 23px;
+    position: sticky;
+    top: 0px;
+}
+.cart h5{
+    font-size: 28px;
+}
+.cart h6{
+    font-size: 20px;
+    margin: 10px 0;
+}
