@@ -1,0 +1,57 @@
+.form-container {
+  width: 400px;
+  padding-left: 42px;
+  padding-bottom: 40px;
+  margin: 20px auto;
+  border: 1px solid #95a0a7;
+  border-radius: 8px;
+}
+.form-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 42px;
+  letter-spacing: 0.0025em;
+  color: #2a414f;
+  text-align: center;
+}
+.form-control label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.form-control input {
+  width: 315px;
+  height: 45px;
+  border: 1px solid #95a0a7;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.btn-submit {
+  width: 325px;
+  height: 55px;
+  border: 0;
+  background: rgba(255, 153, 0, 0.3);
+  border-radius: 5px;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 25px;
+  letter-spacing: 0.0015em;
+  color: #0e161a;
+  margin-top: 10px;
+}
+.new-user {
+  margin-top: 5px;
+  margin-left: 20px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.0025em;
+  color: #2a414f;
+}
+.signUp {
+  color: #ff9900;
+}

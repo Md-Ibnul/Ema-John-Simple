@@ -1,5 +1,4 @@
 .header{
-    max-width: ;
     height: 80px;
     background-color: #1C2B35;
     display: flex;
@@ -15,4 +14,11 @@
 .menu a:hover{
     color: crimson;
     transition: all .3s;
+}
+.text-sky{
+    color: rgb(23, 230, 249);
+    padding-left: 10px;
+}
+.sign-out{
+    margin-left: 10px;
 }

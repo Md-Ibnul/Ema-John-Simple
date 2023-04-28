@@ -1,3 +1,14 @@
 .review-container{
     margin: 50px auto;
 }
+.proceed-btn{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px auto;
+    border-radius: 4px;
+    background: #ebcc03;
+    color: white;
+
+}

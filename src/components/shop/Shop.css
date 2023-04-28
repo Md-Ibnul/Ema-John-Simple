@@ -10,3 +10,13 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 45px;
 }
+.order-review-btn{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px auto;
+    border-radius: 4px;
+    background: #ebcc03;
+    color: white;
+}

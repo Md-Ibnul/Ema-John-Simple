@@ -3,6 +3,9 @@ import { addToDb, deleteShoppingCart, getShoppingCart } from '../../utilities/fa
 import Cart from '../cart/Cart.jsx';
 import Product from '../product/Product.jsx';
 import './Shop.css';
+import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 const Shop = () => {
     const [products, setProducts] = useState([]);
@@ -62,7 +65,14 @@ const Shop = () => {
                 <Cart 
                 cart={cart}
                 handleClearCart = {handleClearCart}
-                ></Cart>
+                >
+                    <Link to="/orders">
+                        <button className='order-review-btn'>
+                            Order Review
+                            <FontAwesomeIcon icon={faArrowRight} />
+                            </button>
+                    </Link>
+                </Cart>
             </div>
         </div>
     );
